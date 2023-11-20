@@ -1,24 +1,40 @@
+// Create a game where you ask to guess the number 
+// run it until he/she solves it
+
+var min = 1;
+var max = 10;
+var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+let UserInput = prompt("Enter guess number betwwen 0 to 10:");
+
+while( UserInput != max){
+    UserInput = prompt("You Entered Wrong Number");
+}
+
+console.log("Great You Catch The Number", randomNumber)
+
+
+
+
 // For-in Loop
 
-var student = {
-    name: "Amita",
-    class: "B.A",
-    Age: "45",
-    isPass: true
-}
+// var student = {
+//     name: "Amita",
+//     class: "B.A",
+//     Age: "45",
+//     isPass: true
+// }
 
-for (let i in student){
-    console.log(i, student[i])
-}
+// for (let i in student){
+//     console.log(i, student[i])
+// }
 
 
+// // For-of Loop
 
-// For-of Loop
-
-let str = "Learning JavaScript"
-for(let i of str){
-    console.log(i)
-}
+// let str = "Learning JavaScript"
+// for(let i of str){
+//     console.log(i)
+// }
 
 // Print stars in JavaScript
 
