@@ -1,18 +1,34 @@
+
+//A simple examaple for string User should The name then we generate the 
+// user name like instagram @username12
+//user will just write the name
+
+let username = prompt("Please Enter the User name: ");
+let afterSPliting = username.split(" ").join("")
+var randomNumber = Math.floor(Math.random() * 100)
+
+const finalName = "@".concat(afterSPliting).concat(randomNumber)
+
+console.log(finalName)
+
+
+
+
+
+
 // Create a game where you ask to guess the number 
 // run it until he/she solves it
 
-var min = 1;
-var max = 10;
-var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-let UserInput = prompt("Enter guess number betwwen 0 to 10:");
+// var min = 1;
+// var max = 10;
+// var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+// let UserInput = prompt("Enter guess number betwwen 0 to 10:");
 
-while( UserInput != max){
-    UserInput = prompt("You Entered Wrong Number");
-}
+// while( UserInput != max){
+//     UserInput = prompt("You Entered Wrong Number");
+// }
 
-console.log("Great You Catch The Number", randomNumber)
-
-
+// console.log("Great You Catch The Number", randomNumber)
 
 
 // For-in Loop
