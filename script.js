@@ -1,13 +1,35 @@
+// For-in Loop
+
+var student = {
+    name: "Amita",
+    class: "B.A",
+    Age: "45",
+    isPass: true
+}
+
+for (let i in student){
+    console.log(i, student[i])
+}
+
+
+
+// For-of Loop
+
+let str = "Learning JavaScript"
+for(let i of str){
+    console.log(i)
+}
+
 // Print stars in JavaScript
 
-for (let i = 1; i <= 5; i++) {
-    for (let j = 1; j <= i; j++) {
-        // Print '*' character
-        console.log("*");
-    }
-    // Move to the next line after each row
-    console.log("\n");
-}
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         // Print '*' character
+//         console.log("*");
+//     }
+//     // Move to the next line after each row
+//     console.log("\n");
+// }
   
 
 
